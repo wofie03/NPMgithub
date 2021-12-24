@@ -1,6 +1,6 @@
 {
-  "name": "npm-git",
-  "version": "1.0.0",
+  "name": "doggoboss",
+  "version": "1.0.1",
   "description": "Testing",
   "main": "index.js",
   "scripts": {
