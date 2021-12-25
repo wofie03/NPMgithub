@@ -1,6 +1,6 @@
 {
   "name": "@wofie03/npm-git",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "<Description of what the package does>\r ## Usage\r Install the package using npm :\r  npm install is-null-or-empty --save\r Then, require the package and use it:\r  [Comment: To check if this usage is proper]\r  var isNullOrEmpty = require('is-null-or-empty');\r  console.log(isNullOrEmpty(\"\")); // true\r  console.log(isNullOrEmpty(\"Hello World\")); // false",
   "main": "index.js",
   "dependencies": {
@@ -12,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm publish --access=public",
-    "git-commit": "git add -A . && git commit -m Testing script",
+    "git-commit": "git add -A . && git commit -m Testing",
     "git-push": "git push origin main && git checkout main",
     "deploy": "npm run build && npm run git-commit && npm run git-push"
   },
